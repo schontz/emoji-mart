@@ -91,6 +91,7 @@ export default class Search extends React.PureComponent {
           id={inputId}
           ref={this.setRef}
           type="search"
+          autocomplete="off"
           onChange={this.handleChange}
           placeholder={i18n.search}
           autoFocus={autoFocus}
